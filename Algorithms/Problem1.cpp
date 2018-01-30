@@ -20,7 +20,7 @@ int findIndex(int a[], int low, int high) {
 }
 
 int main() {
-    printf("Entee the value of n:");
+    printf("Enter the value of n:");
     int n;
     cin >> n;
     int a[n];
