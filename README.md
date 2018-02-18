@@ -1,7 +1,7 @@
 # Data-Structures-and-Algorithms
-Here are a few implementation of data structures and algorithms are implemented using python3.This was done as a part of the lab course during the 3rd semester.
+Here are a few implementations of data structures and algorithms that are implemented using python3 and cpp.This was done as a part of the lab course.
 ## Execution
-To execute the program, you need python3 any cpp compiler. Once done the programs can be executed as:
+To execute the programs, you need python3 interpreter and cpp compiler. Once done, the programs can be executed as follows:
 ```bash
 python3 prog_name.py
 ```
