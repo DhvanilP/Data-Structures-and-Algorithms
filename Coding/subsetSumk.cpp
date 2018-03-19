@@ -16,7 +16,7 @@ bool isSubset(int a[],int sum,int n){
         printf("%d ",a[n-1]);
     }
     return choice1||choice2;
-
+    
 }
 int main(){
     cout<<"Enter the number of elements:";

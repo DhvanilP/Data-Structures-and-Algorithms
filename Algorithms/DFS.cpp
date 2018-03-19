@@ -42,12 +42,5 @@ while(!(s.empty()))
     }
   }
 }
-
-
-
-
-
-
-
   return 0;
 }
