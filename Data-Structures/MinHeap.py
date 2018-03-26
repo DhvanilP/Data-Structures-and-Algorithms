@@ -31,8 +31,9 @@ class MinHeap:
     def buildheap(self):
         # this takes O(n) time
         """this is sued to build the actual heap out of the heap"""
-        for i in range(self.size//2, 0, -1):
+        for i in range(self.size+1, 0, -1):
             self.heapify(i)
+
 
     def minimum(self):
         # this takes constant time
