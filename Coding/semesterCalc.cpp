@@ -9,7 +9,7 @@ int main(){
     int v;
     scanf("%d",&v);
     node ver[v];
-    printf("Enter the number iof edges:");
+    printf("Enter the number of edges:");
     int e;cin>>e;
     for(int i=0;i<e;i++){
         int from,to;
