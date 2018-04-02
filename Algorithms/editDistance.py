@@ -25,13 +25,13 @@ def findEditDistance(s1, s2, l1, l2):
 
 
 def main():
-    s1 = input("Enter string 1:")
-    s2 = input("Enter string 2:")
+    s1 = input("Enter string 1")
+    s2 = input("Enter string 2")
     l1 = len(s1)
     l2 = len(s2)
     global a
-    a = [[0 for j in range(max(l1, l2) + 1)] for i in range(max(l1, l2) + 1)]
-    print(findEditDistance(s1, s2, l1, l2))
+    a = [[0 for j in range(max(l1, l2)+1)] for i in range(max(l1, l2)+1)]
+    findEditDistance(s1, s2, l1, l2)
 
 
 if __name__ == '__main__':
